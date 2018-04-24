@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## A quick guide to RCM and executing the fusee payload
 
-You can use the [editor on GitHub](https://github.com/kanichiwah/kaniciwah.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### What you will need
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- switch (duh)
+- small piece of metal, a pin, breadboard wire etc. Any of these will do
+- computer running linux (or osx?) 
+- usb C to A, such as the ones that come with newer phones (e.g. the Oneplus 2 and newer)
+- Fusee gelee and the fusee.bin payload. These can be found [here](http://www.memecpy.com) and [here](https://t.co/d5nCLNa7E5)
 
-### Markdown
+## Step 1 - RCM
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### To prepare the switch for entering RCM we must power it down. Once powered down there are two pins on the right hand side of the switch that must be bridged, the last two pins towards the back of the switch (pins 9 & 10). This is where you use your piece of metal/pin or whatever. While those pins are bridged, hold down the volume up button and press the power button. The screen will remain blank, if it does not you have not entered RCM. Another way to check is to run 'lsusb' in the terminal and look for 'Nvidia Corp'
 
-```markdown
-Syntax highlighted code block
+## Step 2 - Fusee gelee
 
-# Header 1
-## Header 2
-### Header 3
+### To launch the payload (fusee.bin) we must first setup the fusee gelee launcher. Once you have the files downloaded, CD into the directory and type 'make'. This will prepare intermezzo.bin which is nessecary to run fusee.bin. We then must sate the requirements of the script by installing pyusb. We can do this by entering 'sudo pip3 install pyusb'. Once that is finished we can proceed to run the payload
 
-- Bulleted
-- List
+## Step 3 - The payload
+### The fun part, seeing all those pretty numbers art ascii art on your switch! In the console type 'sudo python3 fusee-launcher.py fusee.bin' (side note fusee.bin should be in the same directory. If all is successful, you will see the reswitched logo on your switch!
 
-1. Numbered
-2. List
+## A (set of) Picture(s) paints a thousand words
+![Image](https://imgur.com/a/lwrVnha)
+# A switch
 
-**Bold** and _Italic_ and `Code` text
+![Image](https://imgur.com/a/RATVhET)
+# The pins on the right hand side of the switch (The right joycon rail)
 
-[Link](url) and ![Image](src)
-```
+![Image](https://imgur.com/a/bgZXGM7)
+# The piece of metal I used
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image](https://imgur.com/a/ry9tA3T)
+# The piece of metal in the rail
 
-### Jekyll Themes
+![Image](https://imgur.com/a/auEKlQs)
+# The final result!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kanichiwah/kaniciwah.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### A massive thank you to the reswitched team, all credits go to them! <3 
