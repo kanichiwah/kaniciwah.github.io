@@ -33,8 +33,8 @@
 # The piece of metal in the rail
 ![Image](/metal_in_switch.jpg)
 
-
-[Image](https://imgur.com/a/auEKlQs)
 # The final result!
+![Image](/final.png)
+
 
 ### A massive thank you to the reswitched team, all credits go to them! <3 
