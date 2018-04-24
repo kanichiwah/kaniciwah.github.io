@@ -20,19 +20,19 @@
 ### The fun part, seeing all those pretty numbers art ascii art on your switch! In the console type 'sudo python3 fusee-launcher.py fusee.bin' (side note fusee.bin should be in the same directory. If all is successful, you will see the reswitched logo on your switch!
 
 ## A (set of) Picture(s) paints a thousand words
-![Image](https://imgur.com/a/lwrVnha)
+[Image](https://imgur.com/a/lwrVnha)
 # A switch
 
-![Image](https://imgur.com/a/RATVhET)
+[Image](https://imgur.com/a/RATVhET)
 # The pins on the right hand side of the switch (The right joycon rail)
 
-![Image](https://imgur.com/a/bgZXGM7)
+[Image](https://imgur.com/a/bgZXGM7)
 # The piece of metal I used
 
-![Image](https://imgur.com/a/ry9tA3T)
+[Image](https://imgur.com/a/ry9tA3T)
 # The piece of metal in the rail
 
-![Image](https://imgur.com/a/auEKlQs)
+[Image](https://imgur.com/a/auEKlQs)
 # The final result!
 
 ### A massive thank you to the reswitched team, all credits go to them! <3 
