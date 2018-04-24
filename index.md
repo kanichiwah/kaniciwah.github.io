@@ -10,7 +10,7 @@
 
 ## Step 1 - RCM
 
-### To prepare the switch for entering RCM we must power it down. Once powered down there are two pins on the right hand side of the switch that must be bridged, the last two pins towards the back of the switch (pins 9 & 10). This is where you use your piece of metal/pin or whatever. While those pins are bridged, hold down the volume up button and press the power button. The screen will remain blank, if it does not you have not entered RCM. Another way to check is to run 'lsusb' in the terminal and look for 'Nvidia Corp'
+### To prepare the switch for entering RCM we must power it down. Once powered down there is a pin on the right hand side of the switch that must be grounded, the last pin towards the back of the switch (pin10). This is where you use your piece of metal/pin or whatever to ground pin 10 to the rail. While the pin is grounded, hold down the volume up button and press the power button. The screen will remain blank, if it does not you have not entered RCM. Another way to check is to run 'lsusb' in the terminal and look for 'Nvidia Corp'
 
 ## Step 2 - Fusee gelee
 
@@ -25,7 +25,6 @@
 
 # The pins on the right hand side of the switch (The right joycon rail)
 ![Image](/pins.jpg)
-![Image](/pins_marked.jpg)
 
 # The piece of metal I used
 ![Image](/metal.jpg)
